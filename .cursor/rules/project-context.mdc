@@ -1,0 +1,13 @@
+---
+description: 実装前に計画と方針の正本を読む
+alwaysApply: true
+---
+
+実装に着手する前に、必ず次を読み、その内容に従う。詳細の正本はこれらのファイルであり、このルールには複製しない。
+
+- `docs/portfolio-plan.md`
+- `docs/project-context.md`
+
+- 初回実装は Phase 1 のみ。Stripe、AI、Phase 2 は入れない。
+- ドメイン初期案と UI 品質の方針に従う。
+- ユーザー向け文言は日本語。
