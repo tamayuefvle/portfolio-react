@@ -43,3 +43,7 @@ next-env.d.ts
 # local demo store and decision trail
 /data/store.json
 /.audit/
+
+# verification runs: proof stays on disk, but it is local
+.cursor/skills/verify-yard/run/
+.cursor/skills/verify-yard/artifacts/
