@@ -1,0 +1,6 @@
+---
+description: チャット全文はフックが docs/chats に残す
+alwaysApply: true
+---
+
+ユーザーとアシスタントの発言は `.cursor/hooks/record-chat.mjs` が `docs/chats/` に全文で追記する。同じやりとりを別ファイルへ複製しない。ユーザーが特定のファイルへの記録を明示したときだけ、そのファイルに書く。`docs/chats/` の記録を要約して書き換えない。

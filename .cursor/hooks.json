@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "node .cursor/hooks/record-chat.mjs",
+        "timeout": 15
+      }
+    ],
+    "afterAgentResponse": [
+      {
+        "command": "node .cursor/hooks/record-chat.mjs",
+        "timeout": 15
+      }
+    ]
+  }
+}
