@@ -28,6 +28,8 @@ npm run dev
 
 画面は `src/app` にあります。権限と資産の状態遷移は `src/domain/model.ts` にまとめてあります。Server Actions は `src/server/actions.ts` で、操作の前にロールを確認し、そのあとドメインのコマンドを適用します。
 
+React を始めた人向けの通し解説は [`docs/repository-guide.md`](docs/repository-guide.md) にあります。短いメモは [`docs/first-slice-thinking.md`](docs/first-slice-thinking.md) です。会話の全文は `docs/chats/` に残ります。
+
 保存先は `data/store.json` です。ファイルが無い最初の起動で、`src/domain/seed.ts` のデモデータが作られます。このファイルは git に含めません。
 
 ## 決めたこと

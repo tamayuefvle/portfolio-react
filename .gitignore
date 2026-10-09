@@ -47,3 +47,6 @@ next-env.d.ts
 # verification runs: proof stays on disk, but it is local
 .cursor/skills/verify-yard/run/
 .cursor/skills/verify-yard/artifacts/
+
+# jev stop-hook dedupe; local to this checkout
+.cursor/hooks/jev-review-state.json

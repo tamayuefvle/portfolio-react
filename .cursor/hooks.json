@@ -12,6 +12,13 @@
         "command": "node .cursor/hooks/record-chat.mjs",
         "timeout": 15
       }
+    ],
+    "stop": [
+      {
+        "command": "node .cursor/hooks/jev-review-stop.mjs",
+        "timeout": 15,
+        "loop_limit": 5
+      }
     ]
   }
 }
